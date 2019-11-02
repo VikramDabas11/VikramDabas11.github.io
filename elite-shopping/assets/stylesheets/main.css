@@ -558,7 +558,7 @@ transition: 0.5s;
 /* section-6 */
 .section-6{
     width:100%;
-    height: 400px;
+    
     background-image: url("https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/143933984/web/images/banner3.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -768,5 +768,86 @@ transition: 0.5s;
     }
     .section-3 h2{
         font-size: 50px;
+    }
+}
+@media (max-width:320px)
+{
+    #top-bar ul li{
+        width: 55%;
+        border: 0;
+    }
+    header .search-bar input[type="search"]{
+        width: 250px;
+    }
+    header .socialize ul li{
+        margin-left: 5px;
+    }
+    .bd-example ol{
+        display: none;
+    }
+    #section-1 .figure-caption h4{
+        font-size: 20px;
+    }
+    #section-1 figure:after{
+        font-size: 10px;
+        padding-left: 25%;
+    }
+    .section-2 .sec-2b {
+        padding: 40px 20px 20px 30px;
+    }
+    .section-2 .sec-2b .inner-right {
+        padding: 0;
+    }
+    .section-2 .sec-2b .inner-right h4{
+        font-size: 15px;
+    }
+    .section-2 .sec-2b .inner-right h5 {
+        font-weight: 400;
+    }
+    .section-3 h2 {
+        font-size: 35px;
+    }
+    .section-3 h2 span {
+        font-weight: 600;
+    }
+    .section-3 figcaption{
+        top: 20px;
+    left: 14px;
+    padding-top: 12%;
+    padding-left: 55%;
+    }
+    .section-3 h4{
+        font-size: 22px;
+    }
+    .section-3 figcaption ~ .sec-3-r{
+        top: 45%;
+    }
+    .section-3 figcaption ~ span{
+        font-size: 17px;
+    } 
+    .section-4 .sec-4a a h3 {
+        font-size: 20px;
+    }
+    .section-4 .sec-4b a h3 {
+        font-size: 20px;
+    }
+    .section-5 h2{
+        font-size: 40px;
+    }
+    .section-6 .sec-6 h1 {
+        font-size: 30px;
+    }
+    .section-6 .sec-6 .shop-button a{
+        top: -30px;
+    }
+    .footer .row2 h2 {
+        font-size: 12px;
+    }
+    .footer .row2 input[type="email"] {
+        width: 70%;
+        padding: 7px 0px;
+    }
+    .footer .row2{
+        padding-bottom: 30px;
     }
 }
