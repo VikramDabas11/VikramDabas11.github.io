@@ -786,10 +786,78 @@ transition: 0.5s;
     .section-3 h2{
         font-size: 50px;
     }
+    .product-image:hover a{
+        top: 90%;
+    }
 }
-@media(min-width:320px) and (max-width:425px)
+@media(min-width:320px) and (max-width:576px)
 {
 #top-bar  ul{
     column-count:1;
+}
+header .search-bar input[type="search"]{
+    width: 250px;
+}
+header .socialize ul li {
+    margin-left: 0;
+}
+#section-1 .figure-caption h4 {
+    font-size: 25px;
+}
+#section-1 figure:after {
+    content: "NEW ARRIVALS";
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    padding-top: 23%;
+    padding-left: 20%;
+    display: block;
+    position: absolute;
+    border: 3px solid #fff;
+    height: 70%;
+    width: 90%;
+    top: 15%;
+    z-index: 50;
+    left: 1%;
+    opacity: 0;
+    transition: 0.4s;
+}
+.section-3 h4{
+    margin-left: -70%;
+    font-size: 20px;
+    margin-top: -15%;
+}
+.section-3 figcaption ~ span{
+    letter-spacing: 5px;
+    font-size: 15px;
+    top: 30%;
+    margin-left: -40px;
+}
+.section-3 .sec-3-right figcaption {
+    height: 77%;
+    padding-top: 3%;
+    margin-top: -15px;
+    margin-left: -10px;
+}
+.section-4 .sec-4b a h3 {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    letter-spacing: 3px;
+    color: #fff;
+    font-size: 25px;
+}
+.section-4 .sec-4a a h3 {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    letter-spacing: 3px;
+    color: #fff;
+    font-size: 25px;
+}
+.section-6 .sec-6 h1 {
+    font-size: 25px;
+    margin-top: 40px;
 }
 }
