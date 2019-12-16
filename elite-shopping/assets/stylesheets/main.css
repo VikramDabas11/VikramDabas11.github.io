@@ -2,6 +2,10 @@
 body{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    
+}
+#container{
+    margin: 0;
     overflow-x: hidden;
 }
 h1,h2,h3,h4,h5,h6{
@@ -801,6 +805,9 @@ header .search-bar input[type="search"]{
 header .socialize ul li {
     margin-left: 0;
 }
+header .logo h1 a{
+    font-size: 40px;
+}
 #section-1 .figure-caption h4 {
     font-size: 25px;
 }
@@ -856,8 +863,22 @@ header .socialize ul li {
     color: #fff;
     font-size: 25px;
 }
+.section-6{
+
+    height: 220px;
+}
+.section-6 .sec-6 {
+    padding-top: 40px;
+}
 .section-6 .sec-6 h1 {
     font-size: 25px;
-    margin-top: 40px;
+    margin-top: 20px;
+}
+.footer .row2 input[type="email"]{
+    margin-bottom: 10px;
+}
+.footer .row2 input[type="submit"] {
+    padding: 8px 92px;
+    margin-bottom: 20px;
 }
 }
