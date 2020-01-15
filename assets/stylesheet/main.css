@@ -315,7 +315,7 @@ ul li{
 }
 
 .left-side .back .download-cv{
-  
+    text-align: center;
 }
 .left-side .back button:hover{
     background-color: tomato;
