@@ -55,7 +55,7 @@ a {
   cursor: pointer;
   background-color: #811919;
   border: none;
-  left: 70%;
+  left: 72%;
   position: absolute;
   top: 45%;
   font-size: 30px;
@@ -78,7 +78,7 @@ a {
 .left-side .back {
   transform: rotateY(180deg);
   background-color: #fafafa;
-  z-index: 900;
+  z-index: 1000;
   backface-visibility: hidden;
   overflow-y: scroll;
   background-image: url("../images/ricepaper.png");
